@@ -8,8 +8,8 @@ export const ShareButton = () => {
   const { t, i18n } = useTranslation();
 
   const shareData = {
-    title: 'Salla Token Network - أول عملة رقمية عربية على شبكة سولانا',
-    text: 'أول عملة رقمية عربية مبنية على شبكة سولانا بلوك تشين، تستخدم في المدفوعات والتجارة الإلكترونية',
+    title: 'Salla Token Network - أول عملة رقمية عربية على شبكة سولانا - First Arabic Cryptocurrency on Solana',
+    text: 'أول عملة رقمية عربية مبنية على شبكة سولانا بلوك تشين، تستخدم في المدفوعات والتجارة الإلكترونية - The first Arabic cryptocurrency built on Solana blockchain, used for payments and e-commerce',
     url: window.location.href
   };
 

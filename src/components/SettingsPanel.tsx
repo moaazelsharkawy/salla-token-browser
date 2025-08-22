@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useTheme } from '@/hooks/useTheme';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
-import { Settings, Sun, Moon, Globe, Github, Twitter, Instagram, Facebook, FileText } from 'lucide-react';
+import { Settings, Sun, Moon, Globe, Github, Facebook, FileText, Send } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 export function SettingsPanel() {
@@ -17,10 +17,10 @@ export function SettingsPanel() {
   };
 
   const socialLinks = [
-    { icon: Github, label: 'GitHub', url: '#' },
-    { icon: Twitter, label: 'Twitter', url: '#' },
-    { icon: Instagram, label: 'Instagram', url: '#' },
-    { icon: Facebook, label: 'Facebook', url: '#' },
+    { icon: Github, label: 'GitHub', url: 'https://github.com/moaazelsharkawy/salla-token-browser/blob/main/README.md' },
+    { icon: () => <span className="text-sm font-bold">𝕏</span>, label: 'X', url: 'https://twitter.com/pisallashop' },
+    { icon: Send, label: 'Telegram', url: 'https://telegram.me/pisallashop' },
+    { icon: Facebook, label: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61555886373555' },
   ];
 
   return (
